@@ -12,7 +12,5 @@ components:
     memoryLimit: 6Gi
     mountSources: true
     env:
-    - name: SHELL
-      value: "/bin/zsh"
     - name: HOME
       value: "/projects/home"
