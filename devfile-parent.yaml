@@ -8,7 +8,7 @@ metadata:
 components:
 - name: dev-tools
   container:
-    image: quay.io/cgruver0/che/workspace-base:ubi10
+    image: quay.io/cgruver0/che/ocp-4-20-nested-containers:latest
     memoryLimit: 6Gi
     mountSources: true
     env:
