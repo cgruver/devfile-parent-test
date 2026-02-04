@@ -1,0 +1,16 @@
+schemaVersion: 2.2.0
+metadata:
+  name: test
+  displayName: Test
+  projectType: podman
+  language: Podman
+  version: 1.0.0
+components:
+- name: dev-tools
+  container:
+    image: quay.io/devfile/universal-developer-image:ubi9-latest
+    memoryLimit: 6Gi
+    mountSources: true
+    env:
+    - name: HOME
+      value: "/projects/home"
